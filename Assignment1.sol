@@ -15,6 +15,10 @@ contract Assignment{
             return 0; 
         }
     }
+    
+    function Avg(int a, int b, int c) public pure returns(int){
+        return (a+b+c)/3; 
+    }
 
 }
 
