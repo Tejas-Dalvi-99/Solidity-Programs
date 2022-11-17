@@ -36,6 +36,17 @@ contract Assignment{
     }
 //#################################################################    
 
+    // Question 7: Check if number is Prime or not
+     function Prime(int a) public pure returns(int){
+        if(a%2==0 ||a%3 == 0){
+            return 0; 
+        }
+        else{
+            return 1; 
+        }
+    }
+//################################################################# 
+
 }
 
 
