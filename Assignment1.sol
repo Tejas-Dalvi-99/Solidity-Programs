@@ -27,6 +27,13 @@ contract Assignment{
         return (a+b+c)/3; 
     }
 //#################################################################
+    // Question 4: Swap two numbers using 3rd variable
+    function swap(int a, int b) public pure {
+        int c = a; 
+        a = b; 
+        b = c; 
+    }
+
 }
 
 
