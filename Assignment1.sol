@@ -64,6 +64,14 @@ contract Assignment{
     }
 //################################################################# 
 
+    // Question 13: Find factorial of a number
+    function Factorial(int a) public pure returns(int){
+        int fact = 1;
+        for(int i=a; i>0;i--){
+            fact = fact*i; 
+        }
+        return fact; 
+    }
+//################################################################# 
+
 }
-
-
