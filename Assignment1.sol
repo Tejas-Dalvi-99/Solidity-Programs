@@ -50,6 +50,20 @@ contract Assignment{
     }
 //################################################################# 
 
+    // Question 9: Find greatest among 3 numbers
+    function Greatest(int a, int b, int c) public pure returns(int){
+        if(a>b && a>c){
+            return a; 
+        }
+        else if(b>a && b>c){
+            return b; 
+        }
+        else{
+            return c; 
+        }
+    }
+//################################################################# 
+
 }
 
 
