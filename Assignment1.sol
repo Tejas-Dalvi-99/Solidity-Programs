@@ -72,6 +72,22 @@ contract Assignment{
         }
         return fact; 
     }
-//################################################################# 
+//#################################################################
+
+    // Question 15: Multiple 2 numbers without using multiplication Operator
+    function Multiply(int a, int b) public pure returns(int){
+        int ans; 
+        if(a==0 || b==0){
+            return 0;
+        }
+        else{
+            for(int i=0;i<b;i++){
+            ans=ans+a; 
+            }
+            return ans;
+        }
+         
+    }
+//#################################################################
 
 }
